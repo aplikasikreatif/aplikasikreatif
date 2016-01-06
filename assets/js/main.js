@@ -155,6 +155,17 @@
 					// but there's enough here to piece together a working AJAX submission call that does.
 						window.setTimeout(function() {
 
+                            var data = {
+                                'email' : $('#email').val()
+                            };
+                            $.ajax({
+                                type     : 'POST',
+                                url      : '//formspree.io/info@aplikasikreatif.com',
+                                data     : data,
+                                dataType : 'json',
+                                encode   : true
+                            })
+
 							// Reset form.
 								$form.reset();
 
