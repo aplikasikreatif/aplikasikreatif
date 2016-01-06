@@ -173,7 +173,7 @@
 								$submit.disabled = false;
 
 							// Show message.
-								$message._show('success', 'Thank you!');
+								$message._show('success', 'Terima kasih, sila periksa email anda untuk pengesahan!');
 								//$message._show('failure', 'Something went wrong. Please try again.');
 
 						}, 750);
