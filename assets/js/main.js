@@ -160,7 +160,7 @@
                             };
                             $.ajax({
                                 type     : 'POST',
-                                url      : '//formspree.io/info@aplikasikreatif.com',
+                                url      : '//formspree.io/salahuddin@aplikasikreatif.com',
                                 data     : data,
                                 dataType : 'json',
                                 encode   : true
